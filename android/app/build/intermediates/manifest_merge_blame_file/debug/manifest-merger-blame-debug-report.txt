@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.photocompressor"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\React Native CLI\PhotoCompressor\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\React Native CLI\PhotoCompressor\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:3:5-67
+12-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:4:5-65
+13-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:4:22-62
+14    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+14-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:5:5-76
+14-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:5:22-73
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.182.0] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\e13f88164840fe641a466d05cd8edac7\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.182.0] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\e13f88164840fe641a466d05cd8edac7\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:22-73
+16
+17    <queries>
+17-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-11:15
+18        <intent>
+18-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-10:18
+19            <action android:name="android.media.action.IMAGE_CAPTURE" />
+19-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-73
+19-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:21-70
+20        </intent>
+21    </queries>
+22
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-81
+23-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-78
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+25
+26    <application
+26-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:7:5-26:19
+27        android:name="com.photocompressor.MainApplication"
+27-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:8:7-38
+28        android:allowBackup="false"
+28-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:12:7-34
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.8.0] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\9623e378e4dfc57c47793d0ffd25ee05\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:10:7-41
+32        android:label="@string/app_name"
+32-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:9:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:11:7-52
+34        android:theme="@style/AppTheme"
+34-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:13:7-38
+35        android:usesCleartextTraffic="true" >
+35-->D:\React Native CLI\PhotoCompressor\android\app\src\debug\AndroidManifest.xml:8:9-44
+36        <activity
+36-->D:\React Native CLI\PhotoCompressor\android\app\src\debug\AndroidManifest.xml:11:9-111
+37            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+37-->D:\React Native CLI\PhotoCompressor\android\app\src\debug\AndroidManifest.xml:11:19-83
+38            android:exported="false" />
+38-->D:\React Native CLI\PhotoCompressor\android\app\src\debug\AndroidManifest.xml:11:84-108
+39        <activity
+39-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:14:7-25:18
+40            android:name="com.photocompressor.MainActivity"
+40-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:15:9-37
+41            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+41-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:17:9-118
+42            android:exported="true"
+42-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:20:9-32
+43            android:label="@string/app_name"
+43-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:16:9-41
+44            android:launchMode="singleTask"
+44-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:18:9-40
+45            android:windowSoftInputMode="adjustResize" >
+45-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:19:9-51
+46            <intent-filter>
+46-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:21:9-24:25
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:22:13-65
+47-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:22:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:23:13-73
+49-->D:\React Native CLI\PhotoCompressor\android\app\src\main\AndroidManifest.xml:23:23-70
+50            </intent-filter>
+51        </activity>
+52
+53        <provider
+53-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-24:20
+54            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+54-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-94
+55            android:authorities="com.photocompressor.provider"
+55-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-60
+56            android:exported="false"
+56-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+57            android:grantUriPermissions="true" >
+57-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-47
+58            <meta-data
+58-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:78
+59                android:name="android.support.FILE_PROVIDER_PATHS"
+59-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-67
+60                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+60-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-75
+61        </provider>
+62
+63        <activity
+63-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-28:72
+64            android:name="com.yalantis.ucrop.UCropActivity"
+64-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-60
+65            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+65-->[:react-native-image-crop-picker] D:\React Native CLI\PhotoCompressor\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-69
+66
+67        <meta-data
+67-->[com.facebook.soloader:soloader:0.10.5] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+68            android:name="com.facebook.soloader.enabled"
+68-->[com.facebook.soloader:soloader:0.10.5] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
+69            android:value="false" />
+69-->[com.facebook.soloader:soloader:0.10.5] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\ec3312a013bd7d8a70466a1977a1dba4\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+73            android:authorities="com.photocompressor.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\259206a491dfa4b8b6052b2b1c41d979\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\b1c537e6049df5a2dcb1a9b20b1a8868\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\b1c537e6049df5a2dcb1a9b20b1a8868\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\RajvardhanYadav\.gradle\caches\transforms-3\b1c537e6049df5a2dcb1a9b20b1a8868\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+81        </provider>
+82    </application>
+83
+84</manifest>
